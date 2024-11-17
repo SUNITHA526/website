@@ -1,0 +1,457 @@
+*{
+    box-sizing: border-box;
+}
+
+.first{
+    background-color: rgba(212, 226, 248, 0.986);
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headercenter>a,.headerright>a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    padding: 20px;
+}
+.headerright{
+    display: flex;
+    align-items: center;
+}
+.headerright>a:hover{
+    color:blue;
+}
+.headerright>.cart>a{
+    border-color: blue;
+    padding:5px;
+}
+.headercenter>a:hover{
+    color:blue;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+.container-left > h1{
+    font-size: 4.8rem;
+}
+.container-left,.container-right{
+    width: 45%;
+    margin-top: 50px;
+}
+.container-left>p{
+    font-size: 1.9rem;
+    color: gray;
+}
+.container-left>button{
+    background-color: rgb(0, 132, 255);
+    padding: 15px 30px;
+    border-radius: 7px;
+    color: white;
+    font-size: 1rem;
+}
+.container-left>button,.container-left>a{
+    margin: 0 20px;
+}
+.container-left>a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(0, 132, 255);
+}
+.container-left>a:hover{
+    color: black;
+}
+.container-right>img{
+    width: 90%;
+}
+.container-left{
+    justify-content: center;
+}
+.c-bottom>p{
+    display:flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    margin-top: 80px;
+    font-weight: bold;
+}
+.c-bottom1{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.c-bottom1>div>img{
+    animation-name: moveimg;
+    animation-delay: 3s;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+@keyframes moveimg{
+    0%{
+        transition: translateX(0);
+    }
+    100%{
+        transform: translateX(-50px);
+    }
+}
+.second{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    justify-content: space-around;
+}
+.head>h1{
+    font-size: 4rem;
+    text-align: center;
+    width: 100%;
+    padding: 4rem;
+}
+.sec-icon{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.stars>i{
+    display: inline;
+    justify-content: center;
+}
+.stars>p{
+    font-size: 1.1rem;
+}
+.stars>i,.stars>p{
+    align-items: center;
+}
+.stars>img{
+    align-items: center;
+}
+
+.third{
+    display: flex;
+    width: 80%;
+    gap: 50px;
+    justify-content: center;
+    padding: 50px;
+    margin-left: 7.5rem;
+
+}
+.htag>h1{
+    display: flex;
+    font-size: 2.8rem;
+    justify-content: center;
+    padding: 3rem;
+}
+ .third>.div-card1>div>p,.third>.div-card2>div>p,.third>.div-card3>div>p{
+    font-size: 1.2rem;
+    color: grey;
+ }
+ .div-card1>div>h3, .div-card2>div>h3, .div-card3>div>h3{
+    font-size: 1.6rem;
+ }
+ .div-card1>div,.div-card2>div,.div-card3>div{
+    border: 2px;
+    padding: 30px;
+    width: 100%;
+    height: 40%;
+ }
+ .div-card1:hover{
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 5px lightslategray;
+ }
+ .div-card2:hover{
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 5px lightslategray;
+ }
+ .div-card3:hover{
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 5px lightslategray;
+ }
+ .sec-card{
+    display: flex;
+    width: 80%;
+    gap: 50px;
+    justify-content: center;
+    padding: 50px;
+    margin-left: 7.5rem;
+
+
+ }
+ .div-card1>div>i,.div-card2>div>i,.div-card3>div>i{
+    color: blue;
+ }
+ .sec-card>.div-card4>div>p,.sec-card>.div-card5>div>p,.sec-card>.div-card6>div>p{
+    font-size: 1.2rem;
+    color: grey;
+ }
+ .div-card4:hover{
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 5px lightslategray;
+ }
+ .div-card5:hover{
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 5px lightslategray;
+ }
+ .div-card6:hover{
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 5px lightslategray;
+ }
+ .div-card4>div>h3, .div-card5>div>h3, .div-card6>div>h3{
+    font-size: 1.6rem;
+ }
+ .div-card4>div,.div-card5>div,.div-card6>div{
+    border: 2px;
+    padding: 30px;
+    width: 100%;
+    height: 40%;
+ }
+ .div-card4>div>i, .div-card5>div>i, .div-card6>div>i{
+    color: blue;
+ }
+ .four{
+    background-color: rgb(198, 228, 240);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+ }
+ .themes{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+
+ }
+ .theme-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+ }
+ .background{
+    background-color: rgb(198, 228, 240);
+    width: 90;
+ }
+ .four>.themes>h1{
+    font-size: 3rem;
+    font-weight: bold;
+ }
+ .theme-card>div>p:hover{
+    color: blue;
+ }
+ .our-plugins{
+    background-color: rgb(188, 249, 249);
+    padding: 50px;
+ }
+ .plugins{
+    display: flex;
+    justify-content: space-around;
+ }
+ .plugin-head>h1{
+    font-size: 3rem;
+    font-weight: bold;
+ }
+ .plugin-card{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+ }
+ .plugin-card>div>p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+ }
+ .plugin-card>div>p:hover{
+    color: blue;
+ }
+ .back{
+    background-image: url(https://c1.wallpaperflare.com/preview/1019/730/408/fabric-template-abstract-desktop.jpg);
+    height: 100%;
+    z-index: 2;
+ }
+ .content{
+    z-index: 1;
+    display: block;
+
+ }
+ .content>h1{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+ }
+ .content>p{
+    color: white;
+    text-align: center;
+    padding: 1rem 5rem;
+    font-size: 1.5rem;
+ }
+.content-bottom{
+    display: flex;
+    color: white;
+    justify-content: center;
+
+}
+
+.h1{
+    display: flex;
+    gap: 5.3rem;
+    align-items: center;
+    
+}
+.h1>div{
+    line-height: 0.1;
+}
+.h1>div>span{
+    font-size: 1rem;
+}
+.box-body{
+    display: flex;
+    gap: 3rem;
+   background-color: white;
+    width: 80%;
+    padding: 15px;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 8rem;
+    margin-top: 3rem;
+}
+.text{
+    padding: 30px 15px;
+    line-height: 2;
+}
+.five{
+    text-align: center;
+    padding: 40px;
+}
+.five-card>.card>i{
+    display: flex;
+    flex: start;
+}
+.card-body{
+    border-radius: 15px;
+    padding: 5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: start;
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.five-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem;
+}
+.six{
+    width: 100vw;
+}
+.six>h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 3rem;
+    padding: 1rem;
+}
+.six>.card{
+    display: flex;
+    justify-content: center;
+}
+.six-card>.card:hover{
+    box-shadow: 0 5px 5px 5px lightslategray;
+}
+.six-card{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+.card.card-body>span:hover{
+    color: black;
+}
+.card>i{
+    color: blue;
+    /* padding: 2rem; */
+    display: flex;
+    align-items: center;
+}
+.card-body>span{
+    color: blue;
+}
+.six-text{
+    font-size: 1.8rem;
+}
+.card-body>p{
+    color: gray;
+}
+.web-head>h1{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.web-head>p{
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.web-head>button{
+    color: blue;
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 37rem;
+}
+.web-head>button:hover{
+    background-color: black;
+    color: white;
+}
+.web-content{
+    background-image: url(https://www.creativefabrica.com/wp-content/uploads/2023/05/18/bright-blue-background-Graphics-69931973-1-1-580x387.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+    padding: 5rem;
+    margin-top: 5rem;
+}
+.seven{
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+    padding: 5rem;
+}
+.seven>div>p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.seven>div>h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+.seven>div>p:hover{
+    color: blue;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6rem;
+}
+
